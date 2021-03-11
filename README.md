@@ -1,6 +1,6 @@
 # Soccer Whistle React Web App
 
-[Check live link here:](https://frosty-turing-97f46b.netlify.app/).
+[## Click here to check live](https://frosty-turing-97f46b.netlify.app/)
 
 ## Available Scripts
 
