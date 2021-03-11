@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Soccer Whistle React Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Check live link here:](https://frosty-turing-97f46b.netlify.app/).
 
 ## Available Scripts
 
