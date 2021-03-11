@@ -1,0 +1,33 @@
+.list-hero{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(../../images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.list-hero h2{
+    color: #fff
+}
+.list-hero:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(0 0 0 / 50%);
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 991px) {
+    .list-hero {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    } 
+}
+@media (max-width: 768px) {
+    .list-hero{
+        padding-top: 80px;
+        padding-bottom:80px
+    }
+}

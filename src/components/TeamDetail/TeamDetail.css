@@ -1,0 +1,100 @@
+.team-detail-header{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url(../../images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+}
+.team-detail-header:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: rgb(255 255 255 / 60%);
+    height: 100%;
+    top: 0;
+}
+.team-detail-header img{
+    max-height: 300px;
+    max-width: 100%;
+}
+ul.league-info-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+ul.league-info-list li{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+ul.league-info-list li svg{
+    margin-right: 10px;
+}
+.team-content{
+    font-size: 20px;
+}
+.team-content p{
+    margin-bottom: 30px;
+}
+.social-media a{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.social-media a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 50%;
+    color: #fff;
+    transition: .3s;
+}
+.social-media a:hover{
+    opacity: .8;
+}
+.social-media a.twitter-icon {
+    background: #1DA1F2;
+}
+.social-media a.facebook-icon{
+    background: #3B5998;
+}
+.social-media a.youtube-icon{
+    background:#FF0000;
+}
+@media (max-width: 991px) {
+    .team-detail-header{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .team-detail-header img{
+        max-height: 200px;
+    }
+    ul.league-info-list li, .team-content{
+        font-size: 16px;
+    }
+    .team-content p{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-detail-header{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .team-detail-header img{
+        max-height: 150px;
+    }
+    ul.league-info-list li, .team-content{
+        font-size: 16px;
+    }
+    .team-content p{
+        margin-bottom: 20px;
+    }
+}

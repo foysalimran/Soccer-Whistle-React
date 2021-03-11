@@ -1,0 +1,30 @@
+.single-team{
+    padding: 45px;
+    padding-bottom: 30px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background: #fff;
+    margin-bottom: 30px
+}
+.single-team  img{
+    margin-bottom: 50px
+}
+.single-team p{
+    font-weight: 500;
+}
+.single-team button{
+    font-weight: 600;
+    font-size: 16px;
+}
+.single-team button svg{
+    margin-left: 10px
+}
+
+@media (max-width: 991px) {
+    .single-team{
+        padding: 15px
+    }
+    .single-team img{
+        margin-bottom: 15px;
+    }
+}
