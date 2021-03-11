@@ -9,5 +9,13 @@
 ### Features
 
 <ul>
-<li>Test</li>
+<li>Unique design and clean design</li>
+<li>Made with latest version of React</li>
+<li>Made With Bootstrap 5x Framework</li>
+<li>Pixel Perfect Design</li>
+<li>Responsive For All Devices</li>
+<li>404 page included</li>
+<li>600+ Font Awesome and vector icons 7 stroke</li>
+<li>Every single parts are component ready</li>
+<li>Clean and Well Commented Codes.</li>
 </ul>
